@@ -5,9 +5,9 @@ import { ShopComponent } from './shop/shop.component';
 import { UserComponent } from './user/user.component';
 
 const routes: Routes = [
-  {path: '/product', component:ProductComponent},
-  {path: '/shop', component:ShopComponent},
-  {path: '/user', component:UserComponent}
+  {path: 'product', component:ProductComponent},
+  {path: 'shop', component:ShopComponent},
+  {path: 'user', component:UserComponent}
 ];
 
 @NgModule({
