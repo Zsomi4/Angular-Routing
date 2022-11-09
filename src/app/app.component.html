@@ -1,15 +1,26 @@
 <div class="container">
-  <nav>
-    <ul>
-      <li>
-          <a routerLink="/product">Termékek</a>
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/product">Termékek</a>
       </li>
-      <li>
-          <a routerLink="/shop">Bolt</a>
-    </li>
-    <li>
-          <a routerLink="/user">Felhasználók</a>
-  </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/shop">Bolt</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/user">Felhasználók</a>
+      </li>
     </ul>
-  </nav>
+  <router-outlet></router-outlet>
 </div>
+<!--
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/product">Termékek</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/shop">Bolt</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/user">Felhasználók</a>
+  </li>
+</ul> -->
